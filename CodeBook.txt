@@ -1,0 +1,10 @@
+Code Book for Getting & Cleaning Data Course Project
+17 March 2015
+
+The exercise used and modified the data found in the UCI HAR Dataset folder downloaded from the course site. 
+
+The values for the variables are described in feature_info.txt file in that folder.  The project selected out all the values of variable names including “mean” or “std”.
+
+The dataset submitted, tidydatastep5.txt, has two new columns at the front, one for Subject and one for Activity. The Subject field is a numeric 1 to 30 representing the ID# of the person performming the tests, and the Activity field is a text description of the type of activity being measured. These variables do not have units.
+
+The remaining columns in the tidydatastep5.txt file are the mean values of the mean and std variables described in feature_info.txt over each subject and each activity, with the same units as the original values.
